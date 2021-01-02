@@ -1,4 +1,4 @@
-# devise_with_api_guard_jwt_token
+# devise with api_guard jwt token
 
 Setup of devise with jwt and refresh token using api_guard
   - devise registerable, confirmable
