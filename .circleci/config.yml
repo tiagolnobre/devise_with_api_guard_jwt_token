@@ -61,7 +61,7 @@ commands:
           name: "Run Rubocop verifications"
           command: |
             mkdir -p /tmp/linter-results/rubocop
-            bundle exec rubocop \
+            bundle exec rubocop --config .rubocop.yml \
               --require rubocop/formatter/junit_formatter \
               --format RuboCop::Formatter::JUnitFormatter \
               --out /tmp/linter-results/rubocop/results.xml
