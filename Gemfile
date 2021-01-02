@@ -19,14 +19,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-gem 'rack-cors'
-
 gem 'api_guard'
-gem 'jsonapi-serializer'
-
 gem 'devise'
 gem 'devise-async'
-
+gem 'jsonapi-serializer'
+gem 'rack-cors'
 gem 'sidekiq'
 
 # Reduces boot times through caching; required in config/boot.rb
@@ -39,6 +36,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'brakeman'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'listen', '~> 3.2'
   gem 'web-console', '>= 3.3.0'
@@ -55,6 +53,7 @@ end
 group :test do
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'rspec_junit_formatter'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
