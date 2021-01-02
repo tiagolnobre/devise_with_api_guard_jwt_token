@@ -5,7 +5,7 @@ Setup of devise with jwt and refresh token using api_guard
   - async email send using sidekiq
   - ...
 
-Endpoints:
+### Endpoints:
 
 #### User registration:
 ```
@@ -90,18 +90,18 @@ GET "api/v1/user"
 }
 ```
 
-* Database setup
+### Database setup
 `bundle exec rails db:setup`
 
-* How to run the test suite
+### How to run the test suite
 `bundle exec rspec`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### Deployment instructions
 ...
 
-* Starting the application
+### Starting the application
 
 - `foreman start` for api, jobs (sidekiq)
 - `docker-compose up` for database, redis
