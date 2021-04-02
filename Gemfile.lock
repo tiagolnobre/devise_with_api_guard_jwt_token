@@ -95,7 +95,7 @@ GEM
       railties (>= 5.0.0)
     faker (2.17.0)
       i18n (>= 1.6, < 2)
-    ffi (1.14.2)
+    ffi (1.15.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.10)
@@ -105,7 +105,7 @@ GEM
     jsonapi-serializer (2.2.0)
       activesupport (>= 4.2)
     jwt (2.2.2)
-    listen (3.4.1)
+    listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.9.0)
@@ -262,7 +262,7 @@ DEPENDENCIES
   faker
   jbuilder (~> 2.11)
   jsonapi-serializer
-  listen (~> 3.4)
+  listen (~> 3.5)
   pg (>= 0.18, < 2.0)
   pry
   puma (~> 5.2)
